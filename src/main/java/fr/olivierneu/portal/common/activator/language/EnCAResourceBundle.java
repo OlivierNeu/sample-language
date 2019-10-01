@@ -7,10 +7,10 @@ import java.util.Enumeration;
 import java.util.ResourceBundle;
 
 @Component(
-        property = {"language.id=fr_FR"},
+        property = {"language.id=en_CA"},
         service = ResourceBundle.class
 )
-public class frFRResourceBundle extends ResourceBundle {
+public class EnCAResourceBundle extends ResourceBundle {
 
     @Override
     protected Object handleGetObject(String key) {

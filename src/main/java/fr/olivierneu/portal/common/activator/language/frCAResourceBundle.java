@@ -23,5 +23,5 @@ public class frCAResourceBundle extends ResourceBundle {
     }
 
     private final ResourceBundle _resourceBundle = ResourceBundle.getBundle(
-            "content.Language", UTF8Control.INSTANCE);
+            "content.Language_fr_CA", UTF8Control.INSTANCE);
 }
